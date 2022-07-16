@@ -38,7 +38,7 @@ class ArrayList {
 
         extendDatasSizeIfNeed();
 
-        if(datas[index]!=0){
+        if((Integer)datas[index]!=null){
             for (int i =lastIndex; i>=index; i--){
                 datas[i + 1] = datas[i] ;}
 
